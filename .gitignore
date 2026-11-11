@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+profile/
+.jefit-mcp/
+*jefit-browser-profile*/
+*.log
+*.zip
+*.tgz

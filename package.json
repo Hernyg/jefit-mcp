@@ -1,0 +1,20 @@
+{
+  "name": "jefit-mcp",
+  "version": "1.1.0",
+  "description": "MCP server and CLI for reading JEFIT workouts",
+  "scripts": {
+    "test": "node --test",
+    "setup-login": "node setup-login.mjs",
+    "latest": "node get-latest-workout.mjs",
+    "workouts": "node get-workouts.mjs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "playwright": "^1.65.0",
+    "zod": "^4.6.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
